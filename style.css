@@ -1,0 +1,150 @@
+
+body {
+    background-image:url(http://i.imgur.com/VHnGYBn.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div {
+
+padding:50px;
+
+
+}
+
+li {
+
+  list-style: none;
+  padding-bottom:10px;
+
+
+}
+
+
+.container.space-between {
+  justify-content: space-between;
+}
+
+
+.box {
+  background-color:#323D58;
+  height:200px;
+  width:200px;
+  -webkit-box-shadow: 17px 10px 26px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 10px 26px -1px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 26px -1px rgba(0,0,0,0.75);
+word-wrap: break-word;
+padding:10px;
+border:0px;
+
+
+}
+
+
+#titleheader {
+  text-align: center;
+
+}
+
+.whitetext {
+  color:white;
+
+}
+
+p {
+  word-wrap: break-word;
+  padding:0px;
+  margin:0px;
+  border:0px;
+
+}
+
+a {
+
+  color:white;
+
+
+}
+
+#gif {
+
+  width:300px;
+
+}
+
+#gifbutton {
+
+  height:40px;
+  width:300px;
+  background-color:#3B7298;
+
+}
+
+ul {
+
+padding-right:30px;
+
+}
+
+a:link {
+
+  text-decoration: none;
+
+
+}
+
+
+
+@media (min-width: 800px) {
+  .container {
+    display:flex;
+  }
+}
+
+.btn {
+    padding-left: 14px;
+    padding-top:10px;
+    border: 0 none;
+    letter-spacing: 1px;
+    height:40px;
+    width:300px;
+    background-color:#3B7298;
+}
+
+.portfolio-item {
+
+
+  padding-bottom:5px;
+
+
+}
+
+.portfolio-caption {
+
+  border:1px outset black;
+
+
+}
+
+.img-hover:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+  -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.graybor {
+
+  border:1px solid grey;
+
+}
+
+#bottombuffer {
+
+  padding-bottom:10px;
+
+}

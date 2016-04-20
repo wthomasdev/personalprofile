@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+   <meta charset="utf-8">
+
+<title>William Thomas Personal Profile</title>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href=style.css>
+ </head>
+
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="page-header text-center">
+      <h1>Welcome to my Personal Profile Site </h1>
+    </div>
+
+
+<div class="container space-between">
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">My name is Will Thomas and I live here in Denver, Colorado. I have lived in the US for just over a year.</p></div></div>
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">I'm from a town called Harpenden and it's just outside London, United Kingdom.</p></div></div>
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">I really enjoy cycling, hiking, and the outdoors in general. So Colorado is the perfect place for me.</p></div></div>
+</div>
+
+<div class="text-center" id="trial">
+  <a href="page2.html" class="btn">Learn More</a>
+
+
+</div>
+
+</div>
+</div>
+
+<script>
+
+$( document ).ready(function() {
+
+  $( ".box" ).mouseenter(function() {
+    $(this).animate({height: "300px", width: "300px"}, 500);
+    $(this).find('p').css('font-size', '2em');
+  });
+
+  $( ".box" ).mouseleave(function() {
+    $(this).animate({height: "200px", width: "200px"}, 500);
+    $(this).find('p').css('font-size', '1em');
+  });
+
+
+});
+
+
+
+</script>
+
+</body>
+</html>

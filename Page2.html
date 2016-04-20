@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+   <meta charset="utf-8">
+
+<title>William Thomas Personal Profile</title>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href=style.css>
+ </head>
+
+
+
+<body>
+  <div class="container-fluid" id="top">
+    <div class="row">
+      <div class="page-header text-center">
+      <h1>What I'd like to achieve in my new career:</h1>
+    </div>
+
+
+<div class="container space-between">
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">I'm hoping Galvanize will help me build the skills I need to become a professional web developer at an exciting company here in Denver.</p></div></div>
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">Learning web development has been really satisfying, and I hope learning with others at gSchool is going to make it even more enjoyable.</p></div></div>
+<div class=".col-xs-6 .col-sm-4"><div class="box"><p class="whitetext">Web development also gives you a lot of freedom, I hope to one day be able to code from a mountain cabin.</p></div></div>
+</div>
+
+<div class="text-center">
+  <ul class="text-center">
+    <li>
+ <a href="#myModal" data-toggle="modal" class="btn">Click here for a gif</a>
+</li>
+<li>
+<a href="Page1.html" class="btn">Click here to go back</a>
+</li>
+<li>
+<a href="#target" class="btn">Click here for my portfolio</a>
+</li>
+</ul>
+
+
+  <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>How i feel about starting gSchool:</h4>
+              <div class="modal-body">
+                  <img  src="https://media.giphy.com/media/10nhMCQ0YoOI3C/giphy.gif" alt="" style="width:304px;height:228px;">
+
+              </div>
+            </div>
+          </div>
+      </div> <!--end myModal -->
+
+
+  </div>
+
+</div>
+
+
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="page-header text-center">
+  <h1>Here are some projects I've worked on:</h1>
+</div>
+<div class="row" id="target">
+ <!-- portfoliopic1-->          <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/MySQL/index.php" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/secretdiary.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+
+            </div>
+  <!-- portfoliopic2-->
+<div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/php/weather.php" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/weatherapp.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+            </div>
+  <!-- portfoliopic3-->
+<div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/Appsplashtest.html" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/applandingpage.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+
+            </div>
+<!-- portfoliopic4 -->
+  <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/bbcwebsite/bbc.html" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/bbcclone.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+
+            </div>
+  <!-- portfoliopic5 -->
+  <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/codeplayer.html" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/codeplayer.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+
+            </div>
+  <!-- portfoliopic6 -->
+  <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://www.wthomasdevelopment.com/reactiongame/reactiongame.html" target="_blank">
+
+
+                    <img src="http://www.wthomasdevelopment.com/pictures/reactiongame.png" class="img-responsive img-hover graybor" alt="">
+                </a>
+
+
+            </div>
+
+
+
+
+            </div>
+            <div class="text-center" id="bottombuffer">
+              <a href="#top" class="btn">Back to the top</a>
+
+</div>
+
+</div>
+
+<script>
+
+$( document ).ready(function() {
+
+  $( ".box" ).mouseenter(function() {
+    $(this).animate({height: "300px", width: "300px"}, 500);
+    $(this).find('p').css('font-size', '1.9em');
+  });
+
+  $( ".box" ).mouseleave(function() {
+    $(this).animate({height: "200px", width: "200px"}, 500);
+    $(this).find('p').css('font-size', '1em');
+  });
+
+
+
+});
+
+
+
+</script>
+
+
+</body>
+</html>
